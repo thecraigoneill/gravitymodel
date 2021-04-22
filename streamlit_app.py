@@ -99,10 +99,11 @@ st.line_chart(chart_data.rename(columns={'Distance (m)':'index'}).set_index('ind
 #st.line_chart(line)
 
 if st.checkbox('Show dataframe'):
-    chart_data = pd.DataFrame(
-       data=np.column_stack((xp,line)),columns=['Distance (m)','Gravity (mGal)'])
-    st.write("Distance (m), Gravity (mGal)\n")
-    #st.write(np.c_[xp,line])
-    st.write(chart_data)
+    #chart_data1 = pd.DataFrame(data=np.column_stack((xp,line)),columns=['Distance (m)','Gravity (mGal)'])
+    #chart_data2
+    st.write("Distance (m)\n")
+    st.write(np.c_[xp])
+    st.write("Gravity (mGal)\n")
+    st.write(np.c_[line])
     
 
