@@ -103,9 +103,11 @@ if st.checkbox('Show dataframe'):
     chart_data2 = pd.DataFrame(data=line,columns=['Gravity (mGal)'])
     st.write("Distance (m)\n")
     #st.write(np.c_[xp])
-    st.dataframe(chart_data1,50,1200)
+    st.dataframe(chart_data1,510,2600)
     st.write("Gravity (mGal)\n")
-    st.write(chart_data2)
+    st.dataframe(chart_data1,610,2600)
+
+    #st.write(chart_data2)
     #st.write(np.c_[line])
     
 
