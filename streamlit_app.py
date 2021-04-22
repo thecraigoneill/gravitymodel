@@ -105,7 +105,7 @@ if st.checkbox('Show dataframe'):
     #st.write(np.c_[xp])
     st.dataframe(chart_data1,510,2600)
     st.write("Gravity (mGal)\n")
-    st.dataframe(chart_data1,610,2600)
+    st.dataframe(chart_data2,610,2600)
 
     #st.write(chart_data2)
     #st.write(np.c_[line])
